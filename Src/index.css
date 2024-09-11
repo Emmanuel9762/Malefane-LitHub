@@ -1,0 +1,41 @@
+/* Styles for the navigation */
+.header {
+    position: relative;
+    width: 100%;
+    height: 80px; /* Increased height to accommodate a larger logo */
+  }
+  
+  /* Logo container and image styling */
+  .logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px; /* Adjusted padding to give more space around the larger logo */
+  }
+  
+  .logo-img {
+    height: 100px; /* Increased logo height for better visibility */
+    width: 100px;  /* Keep aspect ratio */
+    padding-bottom: 40px;
+  }
+  
+  /* Hamburger menu container and icon styling */
+  .menu-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px; /* Adjusted padding to match the larger logo size */
+  }
+  
+  .hamburger-menu {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Add padding to the nav links for spacing */
+  nav a {
+    padding: 10px;
+  }
+  
+  
